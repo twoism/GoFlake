@@ -1,6 +1,9 @@
 # GoFlake
 Distributed unique ID generation service.
 
+# Building
+`go build`
+
 # Starting Consul
 `consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul -node <NODENAME> -log-level debug`
 
